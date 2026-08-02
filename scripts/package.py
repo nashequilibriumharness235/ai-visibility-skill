@@ -5,13 +5,20 @@ Two archive layouts exist, and picking the wrong one is the usual reason an
 upload is rejected:
 
   nested — SKILL.md sits under a top-level folder (`ai-visibility/SKILL.md`).
-           Claude Code, Claude Desktop, claude.ai.
+           Claude Code, Claude Desktop, claude.ai, ChatGPT, Codex. OpenAI
+           states the requirement explicitly: "upload a .zip that contains a
+           single top-level folder".
   flat   — SKILL.md sits at the archive root. Perplexity Computer requires
            this; it derives the skill folder from the `name` in frontmatter.
+
+The nested archives are structurally identical — `--openai` exists so the
+download is obvious to someone installing into ChatGPT, not because the bytes
+differ.
 
 Usage:
     python scripts/package.py                 # build every target
     python scripts/package.py --flat          # Perplexity only
+    python scripts/package.py --openai        # ChatGPT / Codex only
     python scripts/package.py --out ../dist
 
 Standard library only.
@@ -128,7 +135,10 @@ def verify(archive: Path, nested: bool, skill_name: str) -> None:
 TARGETS = {
     "nested": ("{name}.zip", True, "claude.ai — Settings › Capabilities › Skills"),
     "skill": ("{name}.skill", True, "Claude Code / Desktop — install file"),
-    "flat": ("{name}-perplexity.zip", False, "Perplexity Computer — perplexity.ai/computer/skills"),
+    "openai": ("{name}-chatgpt-codex.zip", True,
+               "ChatGPT / Codex — sidebar › Skills › Upload"),
+    "flat": ("{name}-perplexity.zip", False,
+             "Perplexity Computer — perplexity.ai/computer/skills"),
 }
 
 

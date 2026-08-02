@@ -31,18 +31,23 @@ git clone https://github.com/petar-nauka/ai-visibility-skill .claude/skills/ai-v
 Or just copy the folder there. Restart the session and ask something like
 *"check whether ChatGPT recommends my site"* — the skill triggers on its own.
 
-**claude.ai:** grab `ai-visibility.zip` from the
-[latest release](https://github.com/petar-nauka/ai-visibility-skill/releases/latest)
-and upload it under Settings → Capabilities → Skills.
+**Everything else** — download the right archive from the
+[latest release](https://github.com/petar-nauka/ai-visibility-skill/releases/latest):
 
-**Perplexity Computer:** grab `ai-visibility-perplexity.zip` from the same
-release and upload it at
-[perplexity.ai/computer/skills](https://www.perplexity.ai/computer/skills) →
-*Create skill* → *Upload a skill*.
+| Platform | File | Where |
+|---|---|---|
+| claude.ai | `ai-visibility.zip` | Settings → Capabilities → Skills |
+| ChatGPT / Codex | `ai-visibility-chatgpt-codex.zip` | Sidebar → Skills → Upload |
+| Perplexity Computer | `ai-visibility-perplexity.zip` | [perplexity.ai/computer/skills](https://www.perplexity.ai/computer/skills) → Create skill → Upload a skill |
 
-The two archives are not interchangeable, and swapping them is the usual reason
-an upload fails: Claude expects `SKILL.md` under a top-level folder, Perplexity
-expects it at the archive root. To rebuild both from source:
+There are really only two layouts. Claude, ChatGPT and Codex all want
+`SKILL.md` inside a single top-level folder, so those two archives are
+structurally the same and either works on all three — they are shipped
+separately only so the right download is obvious. Perplexity is the odd one
+out: it wants `SKILL.md` at the archive root, and giving it a nested zip is the
+usual reason an upload is rejected.
+
+Rebuild any of them from source:
 
 ```bash
 python scripts/package.py
@@ -176,11 +181,12 @@ AI търсенето не класира страници, а **препоръ�
 сесията и просто попитай „провери дали ChatGPT препоръчва сайта ми". Claude ще
 те преведе през целия процес — на български.
 
-За claude.ai качи `ai-visibility.zip`; за Perplexity Computer —
-`ai-visibility-perplexity.zip`. И двата са в
-[Releases](https://github.com/petar-nauka/ai-visibility-skill/releases/latest).
-Архивите са различни (Claude иска `SKILL.md` в папка, Perplexity — в корена),
-затова не ги разменяй.
+Всички архиви са в
+[Releases](https://github.com/petar-nauka/ai-visibility-skill/releases/latest):
+`ai-visibility.zip` за claude.ai, `ai-visibility-chatgpt-codex.zip` за ChatGPT и
+Codex, `ai-visibility-perplexity.zip` за Perplexity Computer. Първите два са
+еднакви по структура; Perplexity е изключението — иска `SKILL.md` в корена на
+архива, не в подпапка.
 
 Готови промпти за копиране (на български и английски) има в
 **[EXAMPLES.md](EXAMPLES.md)** — пълен одит, петминутна проверка дали AI
